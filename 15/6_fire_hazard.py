@@ -95,7 +95,7 @@ def get_instructions(line):
 
 
 if __name__ == '__main__':
-    with open('6_input.txt', 'r') as fin:
+    with open('./input/6_input.txt', 'r') as fin:
         lines = fin.read().split('\n')
 
     lines = [line.strip() for line in lines if line.strip()]

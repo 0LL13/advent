@@ -50,7 +50,7 @@ def has_no_naughty(line) -> bool:
 
 
 def get_data():
-    with open('5_input.txt', 'r') as fin:
+    with open('./input/5_input.txt', 'r') as fin:
         data = fin.read()
     return data
 
