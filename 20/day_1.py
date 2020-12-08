@@ -259,4 +259,4 @@ for n in lines:
 # Thomas Loock solution:
 
 data = set(lines)
-print(*{entry * complementary for entry in data if (complementary := 2020 - entry) in data})  # noqa
+# print(*{entry * complementary for entry in data if (complementary := 2020 - entry) in data})  # noqa
